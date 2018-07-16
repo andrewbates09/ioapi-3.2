@@ -61,7 +61,7 @@ LDFLAGS = -I$(IODIR) $(DEFINEFLAGS) $(ARCHFLAGS)
 #
  LIBS = -L${OBJDIR} -lioapi -lnetcdff -lnetcdf $(OMPLIBS) $(ARCHLIB) $(ARCHLIBS)
 #LIBS = -L${OBJDIR} -lioapi -lnetcdf  $(OMPLIBS) $(ARCHLIB) $(ARCHLIBS)
-#LIBS = -L${OBJDIR} -lioapi `nf-config --libs` `nc-config --libs` $(OMPLIBS) $(ARCHLIB) $(ARCHLIBS)
+#LIBS = -L${OBJDIR} -lioapi `nf-config --flibs` `nc-config --libs` $(OMPLIBS) $(ARCHLIB) $(ARCHLIBS)
 
 VPATH = ${OBJDIR}
 
